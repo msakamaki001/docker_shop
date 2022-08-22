@@ -6,7 +6,7 @@ https://www.docker.com/products/docker-desktop/.
 # docker_shopをshop_backendと同じディレクトリに置く(例:workdir内に置く).  
 workdir$shop_backend docker_shop. 
   
-# docker_shopを立ち上げる. 
+# docker_shopディレクトリ内に入りdockerを立ち上げる. 
 $docker-compose up -d --build. 
   
 # dbコンテナ内に入る. 
