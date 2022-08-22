@@ -33,4 +33,4 @@ $php artisan migrate:fresh --seed
 
 localhostでアクセスする
 
-docker側の作業は以上です. 
+作業は以上です. 
