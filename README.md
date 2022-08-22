@@ -4,7 +4,7 @@ https://www.docker.com/products/docker-desktop/.
 dockerを立ち上げる  
   
 docker_shopをshop_backendと同じディレクトリに置く(例:workdir内に置く). 
-'$ls'
+$ls
 workdir$shop_backend docker_shop. 
   
 docker_shopを立ち上げる  
