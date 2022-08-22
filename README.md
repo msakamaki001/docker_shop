@@ -19,4 +19,13 @@ Enter password:(passwordはroot)
 # shopデータベースを作成する. 
 mysql> create database shop;  
   
+# phpコンテナ内に入る
+$docker exec -it docker_shop_php_1 bash
+
+# shop_backendディレクトリに入る
+$cd /var/www/shop_backend
+
+# composer起動
+$composer install
+
 docker側の作業は以上です. 
