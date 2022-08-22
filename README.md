@@ -28,4 +28,9 @@ $cd /var/www/shop_backend
 # composer起動
 $composer install
 
+# マイグレーションとシーダー実行
+$php artisan migrate:fresh --seed
+
+localhostでアクセスする
+
 docker側の作業は以上です. 
