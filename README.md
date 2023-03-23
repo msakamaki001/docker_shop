@@ -31,6 +31,9 @@ $composer install
 # マイグレーションとシーダー実行
 $php artisan migrate:fresh --seed
 
+# シンボリックリンク作成
+php artisan storage:link
+
 localhostでアクセスする
 
 作業は以上です. 
