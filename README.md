@@ -10,6 +10,8 @@ workdir$shop_backend docker_shop.
 $docker-compose up -d --build. 
   
 # dbコンテナ内に入る. 
+$docker-compose ps
+でdbコンテナ名を調べる(下記は筆者の場合)
 $docker exec -it docker_shop_db_1 bash. 
   
 # mysqlを起動する. 
