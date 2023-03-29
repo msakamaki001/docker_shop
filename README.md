@@ -31,6 +31,10 @@ $cd /var/www/shop_backend
 $composer install
 
 # マイグレーションとシーダー実行
+.envファイルのDB_HOSTにDBコンテナ名に変える(デフォルトは筆者の環境)
+$docker-compose ps
+でDBコンテナ名を調べる
+DB_HOST=docker_shop-db-1
 $php artisan migrate:fresh --seed
 
 # シンボリックリンク作成
